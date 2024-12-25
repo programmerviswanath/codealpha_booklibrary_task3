@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Book Library</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>My Personal Book Library</h1>
+    </header>
+
+    <main>
+        <section id="search-section">
+            <h2>Search Books</h2>
+            <input type="text" id="search-bar" placeholder="Search by title or author">
+            <button id="search-button">Search</button>
+        </section>
+
+        <section id="categorization-section">
+            <h2>Categories</h2>
+            <div id="categories">
+            </div>
+        </section>
+
+        <section id="library-section">
+            <h2>Book List</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Title</th>
+                        <th>Author</th>
+                        <th>Category</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody id="book-list">
+                    <!-- Book rows will be dynamically added here -->
+                </tbody>
+            </table>
+        </section>
+
+        <section id="borrowing-history-section">
+            <h2>Borrowing History</h2>
+            <ul id="history-list">
+                <!-- Borrowing history will be dynamically populated -->
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Viswanath's Book Library</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #eaf6f6;
+    color: #2b3e50;
+}
+
+header {
+    background: #1a3d5e;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-align: center;
+    border-bottom: 3px solid #ffd700;
+}
+
+main {
+    padding: 20px;
+}
+
+h2 {
+    color: #1a3d5e;
+    margin-bottom: 10px;
+}
+
+#search-section, #categorization-section, #library-section, #borrowing-history-section {
+    margin-bottom: 20px;
+    padding: 15px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#search-bar {
+    padding: 10px;
+    width: calc(100% - 130px);
+    margin-right: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+}
+
+#search-button {
+    padding: 10px 20px;
+    background-color: #00796b;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#search-button:hover {
+    background-color: #004d40;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    font-size: 0.95em;
+}
+
+table th, table td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #e0e0e0;
+}
+
+table th {
+    background-color: #00796b;
+    color: #ffffff;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #1a3d5e;
+    color: #ffffff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
